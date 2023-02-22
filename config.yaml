@@ -1,0 +1,28 @@
+---
+ filename: "Config.yml"
+ my_bigquery_db_yaml_creds:
+  drivername: bigquery
+  host: "127.0.0.1"
+  port: '8081'
+  username: administrator
+  password: ${MY_DB_PW}
+  database: bigquery
+ regex: ""
+ error-rows-threshold: 10
+ file-threshold-limit: 5
+ source-path: "/Users/adrathi/Desktop/Player\ Info/"
+ error-records-path : "/Users/adrathi/Desktop/Player\ Info/error.csv"
+ top: 3
+ ascending : true
+ delimiter: ','
+ input-file-name: ""
+ target-file-name: ""
+ date: ''
+ column-names:
+   - ""
+ target-column-names:
+   - ""
+   - ""
+   - ""
+   - ""
+
